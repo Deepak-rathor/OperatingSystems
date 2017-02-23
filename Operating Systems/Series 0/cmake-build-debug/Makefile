@@ -174,6 +174,19 @@ Main/fast:
 	$(MAKE) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/build
 .PHONY : Main/fast
 
+#=============================================================================
+# Target rules for targets named linked_list
+
+# Build rule for target.
+linked_list: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 linked_list
+.PHONY : linked_list
+
+# fast build rule for target.
+linked_list/fast:
+	$(MAKE) -f CMakeFiles\linked_list.dir\build.make CMakeFiles/linked_list.dir/build
+.PHONY : linked_list/fast
+
 fibonacci.obj: fibonacci.c.obj
 
 .PHONY : fibonacci.obj
@@ -200,6 +213,33 @@ fibonacci.s: fibonacci.c.s
 fibonacci.c.s:
 	$(MAKE) -f CMakeFiles\Series_02.dir\build.make CMakeFiles/Series_02.dir/fibonacci.c.s
 .PHONY : fibonacci.c.s
+
+linked_list.obj: linked_list.c.obj
+
+.PHONY : linked_list.obj
+
+# target to build an object file
+linked_list.c.obj:
+	$(MAKE) -f CMakeFiles\linked_list.dir\build.make CMakeFiles/linked_list.dir/linked_list.c.obj
+.PHONY : linked_list.c.obj
+
+linked_list.i: linked_list.c.i
+
+.PHONY : linked_list.i
+
+# target to preprocess a source file
+linked_list.c.i:
+	$(MAKE) -f CMakeFiles\linked_list.dir\build.make CMakeFiles/linked_list.dir/linked_list.c.i
+.PHONY : linked_list.c.i
+
+linked_list.s: linked_list.c.s
+
+.PHONY : linked_list.s
+
+# target to generate assembly for a file
+linked_list.c.s:
+	$(MAKE) -f CMakeFiles\linked_list.dir\build.make CMakeFiles/linked_list.dir/linked_list.c.s
+.PHONY : linked_list.c.s
 
 main.obj: main.c.obj
 
@@ -321,10 +361,14 @@ help:
 	@echo ... Series_03
 	@echo ... edit_cache
 	@echo ... Main
+	@echo ... linked_list
 	@echo ... rebuild_cache
 	@echo ... fibonacci.obj
 	@echo ... fibonacci.i
 	@echo ... fibonacci.s
+	@echo ... linked_list.obj
+	@echo ... linked_list.i
+	@echo ... linked_list.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
