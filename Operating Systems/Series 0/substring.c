@@ -25,7 +25,7 @@ int main() {
 }
 
 char* substring(const char *str, off_t off, size_t len){
-    buffer = malloc(sizeof(char)*(len+1));
+    buffer = (char*) malloc(sizeof(char)*(len+1));
     memcpy(buffer, &str[off],len);
     buffer[len]='\0';
     return buffer;

@@ -110,6 +110,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Demo_Code
+
+# Build rule for target.
+Demo_Code: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Demo_Code
+.PHONY : Demo_Code
+
+# fast build rule for target.
+Demo_Code/fast:
+	$(MAKE) -f CMakeFiles\Demo_Code.dir\build.make CMakeFiles/Demo_Code.dir/build
+.PHONY : Demo_Code/fast
+
+#=============================================================================
 # Target rules for targets named Series_01
 
 # Build rule for target.
@@ -148,6 +161,19 @@ Series_03/fast:
 	$(MAKE) -f CMakeFiles\Series_03.dir\build.make CMakeFiles/Series_03.dir/build
 .PHONY : Series_03/fast
 
+#=============================================================================
+# Target rules for targets named Main
+
+# Build rule for target.
+Main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Main
+.PHONY : Main
+
+# fast build rule for target.
+Main/fast:
+	$(MAKE) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/build
+.PHONY : Main/fast
+
 fibonacci.obj: fibonacci.c.obj
 
 .PHONY : fibonacci.obj
@@ -175,6 +201,33 @@ fibonacci.c.s:
 	$(MAKE) -f CMakeFiles\Series_02.dir\build.make CMakeFiles/Series_02.dir/fibonacci.c.s
 .PHONY : fibonacci.c.s
 
+main.obj: main.c.obj
+
+.PHONY : main.obj
+
+# target to build an object file
+main.c.obj:
+	$(MAKE) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/main.c.obj
+.PHONY : main.c.obj
+
+main.i: main.c.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.c.i:
+	$(MAKE) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/main.c.i
+.PHONY : main.c.i
+
+main.s: main.c.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.c.s:
+	$(MAKE) -f CMakeFiles\Main.dir\build.make CMakeFiles/Main.dir/main.c.s
+.PHONY : main.c.s
+
 product.obj: product.c.obj
 
 .PHONY : product.obj
@@ -201,6 +254,33 @@ product.s: product.c.s
 product.c.s:
 	$(MAKE) -f CMakeFiles\Series_01.dir\build.make CMakeFiles/Series_01.dir/product.c.s
 .PHONY : product.c.s
+
+someDemoCode.obj: someDemoCode.c.obj
+
+.PHONY : someDemoCode.obj
+
+# target to build an object file
+someDemoCode.c.obj:
+	$(MAKE) -f CMakeFiles\Demo_Code.dir\build.make CMakeFiles/Demo_Code.dir/someDemoCode.c.obj
+.PHONY : someDemoCode.c.obj
+
+someDemoCode.i: someDemoCode.c.i
+
+.PHONY : someDemoCode.i
+
+# target to preprocess a source file
+someDemoCode.c.i:
+	$(MAKE) -f CMakeFiles\Demo_Code.dir\build.make CMakeFiles/Demo_Code.dir/someDemoCode.c.i
+.PHONY : someDemoCode.c.i
+
+someDemoCode.s: someDemoCode.c.s
+
+.PHONY : someDemoCode.s
+
+# target to generate assembly for a file
+someDemoCode.c.s:
+	$(MAKE) -f CMakeFiles\Demo_Code.dir\build.make CMakeFiles/Demo_Code.dir/someDemoCode.c.s
+.PHONY : someDemoCode.c.s
 
 substring.obj: substring.c.obj
 
@@ -235,17 +315,25 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... Demo_Code
 	@echo ... Series_01
 	@echo ... Series_02
 	@echo ... Series_03
 	@echo ... edit_cache
+	@echo ... Main
 	@echo ... rebuild_cache
 	@echo ... fibonacci.obj
 	@echo ... fibonacci.i
 	@echo ... fibonacci.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 	@echo ... product.obj
 	@echo ... product.i
 	@echo ... product.s
+	@echo ... someDemoCode.obj
+	@echo ... someDemoCode.i
+	@echo ... someDemoCode.s
 	@echo ... substring.obj
 	@echo ... substring.i
 	@echo ... substring.s
