@@ -7,6 +7,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/fibonacci.c" "E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/CMakeFiles/Series_0.dir/fibonacci.c.obj"
   "E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/main.c" "E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/CMakeFiles/Series_0.dir/main.c.obj"
   "E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/product.c" "E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/CMakeFiles/Series_0.dir/product.c.obj"
+  "E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/substring.c" "E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/CMakeFiles/Series_0.dir/substring.c.obj"
+  "E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/we.c" "E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/CMakeFiles/Series_0.dir/we.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

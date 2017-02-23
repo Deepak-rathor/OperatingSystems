@@ -128,11 +128,61 @@ CMakeFiles/Series_0.dir/fibonacci.c.obj.provides: CMakeFiles/Series_0.dir/fibona
 CMakeFiles/Series_0.dir/fibonacci.c.obj.provides.build: CMakeFiles/Series_0.dir/fibonacci.c.obj
 
 
+CMakeFiles/Series_0.dir/substring.c.obj: CMakeFiles/Series_0.dir/flags.make
+CMakeFiles/Series_0.dir/substring.c.obj: ../substring.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Eigene Dokumente\C Projects\Operating Systems\Series 0\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Series_0.dir/substring.c.obj"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Series_0.dir\substring.c.obj   -c "E:\Eigene Dokumente\C Projects\Operating Systems\Series 0\substring.c"
+
+CMakeFiles/Series_0.dir/substring.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Series_0.dir/substring.c.i"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\Eigene Dokumente\C Projects\Operating Systems\Series 0\substring.c" > CMakeFiles\Series_0.dir\substring.c.i
+
+CMakeFiles/Series_0.dir/substring.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Series_0.dir/substring.c.s"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\Eigene Dokumente\C Projects\Operating Systems\Series 0\substring.c" -o CMakeFiles\Series_0.dir\substring.c.s
+
+CMakeFiles/Series_0.dir/substring.c.obj.requires:
+
+.PHONY : CMakeFiles/Series_0.dir/substring.c.obj.requires
+
+CMakeFiles/Series_0.dir/substring.c.obj.provides: CMakeFiles/Series_0.dir/substring.c.obj.requires
+	$(MAKE) -f CMakeFiles\Series_0.dir\build.make CMakeFiles/Series_0.dir/substring.c.obj.provides.build
+.PHONY : CMakeFiles/Series_0.dir/substring.c.obj.provides
+
+CMakeFiles/Series_0.dir/substring.c.obj.provides.build: CMakeFiles/Series_0.dir/substring.c.obj
+
+
+CMakeFiles/Series_0.dir/we.c.obj: CMakeFiles/Series_0.dir/flags.make
+CMakeFiles/Series_0.dir/we.c.obj: ../we.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Eigene Dokumente\C Projects\Operating Systems\Series 0\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Series_0.dir/we.c.obj"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Series_0.dir\we.c.obj   -c "E:\Eigene Dokumente\C Projects\Operating Systems\Series 0\we.c"
+
+CMakeFiles/Series_0.dir/we.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Series_0.dir/we.c.i"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\Eigene Dokumente\C Projects\Operating Systems\Series 0\we.c" > CMakeFiles\Series_0.dir\we.c.i
+
+CMakeFiles/Series_0.dir/we.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Series_0.dir/we.c.s"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\Eigene Dokumente\C Projects\Operating Systems\Series 0\we.c" -o CMakeFiles\Series_0.dir\we.c.s
+
+CMakeFiles/Series_0.dir/we.c.obj.requires:
+
+.PHONY : CMakeFiles/Series_0.dir/we.c.obj.requires
+
+CMakeFiles/Series_0.dir/we.c.obj.provides: CMakeFiles/Series_0.dir/we.c.obj.requires
+	$(MAKE) -f CMakeFiles\Series_0.dir\build.make CMakeFiles/Series_0.dir/we.c.obj.provides.build
+.PHONY : CMakeFiles/Series_0.dir/we.c.obj.provides
+
+CMakeFiles/Series_0.dir/we.c.obj.provides.build: CMakeFiles/Series_0.dir/we.c.obj
+
+
 # Object files for target Series_0
 Series_0_OBJECTS = \
 "CMakeFiles/Series_0.dir/main.c.obj" \
 "CMakeFiles/Series_0.dir/product.c.obj" \
-"CMakeFiles/Series_0.dir/fibonacci.c.obj"
+"CMakeFiles/Series_0.dir/fibonacci.c.obj" \
+"CMakeFiles/Series_0.dir/substring.c.obj" \
+"CMakeFiles/Series_0.dir/we.c.obj"
 
 # External object files for target Series_0
 Series_0_EXTERNAL_OBJECTS =
@@ -140,11 +190,13 @@ Series_0_EXTERNAL_OBJECTS =
 Series_0.exe: CMakeFiles/Series_0.dir/main.c.obj
 Series_0.exe: CMakeFiles/Series_0.dir/product.c.obj
 Series_0.exe: CMakeFiles/Series_0.dir/fibonacci.c.obj
+Series_0.exe: CMakeFiles/Series_0.dir/substring.c.obj
+Series_0.exe: CMakeFiles/Series_0.dir/we.c.obj
 Series_0.exe: CMakeFiles/Series_0.dir/build.make
 Series_0.exe: CMakeFiles/Series_0.dir/linklibs.rsp
 Series_0.exe: CMakeFiles/Series_0.dir/objects1.rsp
 Series_0.exe: CMakeFiles/Series_0.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\Eigene Dokumente\C Projects\Operating Systems\Series 0\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable Series_0.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\Eigene Dokumente\C Projects\Operating Systems\Series 0\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable Series_0.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Series_0.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -155,6 +207,8 @@ CMakeFiles/Series_0.dir/build: Series_0.exe
 CMakeFiles/Series_0.dir/requires: CMakeFiles/Series_0.dir/main.c.obj.requires
 CMakeFiles/Series_0.dir/requires: CMakeFiles/Series_0.dir/product.c.obj.requires
 CMakeFiles/Series_0.dir/requires: CMakeFiles/Series_0.dir/fibonacci.c.obj.requires
+CMakeFiles/Series_0.dir/requires: CMakeFiles/Series_0.dir/substring.c.obj.requires
+CMakeFiles/Series_0.dir/requires: CMakeFiles/Series_0.dir/we.c.obj.requires
 
 .PHONY : CMakeFiles/Series_0.dir/requires
 

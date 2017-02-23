@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Series_0.dir/main.c.obj"
   "CMakeFiles/Series_0.dir/product.c.obj"
   "CMakeFiles/Series_0.dir/fibonacci.c.obj"
+  "CMakeFiles/Series_0.dir/substring.c.obj"
+  "CMakeFiles/Series_0.dir/we.c.obj"
   "Series_0.pdb"
   "Series_0.exe"
   "Series_0.exe.manifest"

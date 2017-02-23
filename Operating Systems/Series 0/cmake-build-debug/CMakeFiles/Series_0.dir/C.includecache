@@ -6,7 +6,31 @@
 
 #IncludeRegexTransform: 
 
+E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/fibonacci.c
+stdio.h
+-
+
 E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/main.c
 stdio.h
+-
+
+E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/product.c
+stdio.h
+-
+
+E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/substring.c
+stdio.h
+-
+mem.h
+-
+malloc.h
+-
+
+E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/we.c
+stdio.h
+-
+mem.h
+-
+malloc.h
 -
 
