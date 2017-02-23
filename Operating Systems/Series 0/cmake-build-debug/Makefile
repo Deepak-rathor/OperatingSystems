@@ -110,19 +110,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Demo_Code
-
-# Build rule for target.
-Demo_Code: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Demo_Code
-.PHONY : Demo_Code
-
-# fast build rule for target.
-Demo_Code/fast:
-	$(MAKE) -f CMakeFiles\Demo_Code.dir\build.make CMakeFiles/Demo_Code.dir/build
-.PHONY : Demo_Code/fast
-
-#=============================================================================
 # Target rules for targets named Series_01
 
 # Build rule for target.
@@ -134,6 +121,19 @@ Series_01: cmake_check_build_system
 Series_01/fast:
 	$(MAKE) -f CMakeFiles\Series_01.dir\build.make CMakeFiles/Series_01.dir/build
 .PHONY : Series_01/fast
+
+#=============================================================================
+# Target rules for targets named Demo_Code
+
+# Build rule for target.
+Demo_Code: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Demo_Code
+.PHONY : Demo_Code
+
+# fast build rule for target.
+Demo_Code/fast:
+	$(MAKE) -f CMakeFiles\Demo_Code.dir\build.make CMakeFiles/Demo_Code.dir/build
+.PHONY : Demo_Code/fast
 
 #=============================================================================
 # Target rules for targets named Series_02
@@ -175,6 +175,19 @@ Main/fast:
 .PHONY : Main/fast
 
 #=============================================================================
+# Target rules for targets named error
+
+# Build rule for target.
+error: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 error
+.PHONY : error
+
+# fast build rule for target.
+error/fast:
+	$(MAKE) -f CMakeFiles\error.dir\build.make CMakeFiles/error.dir/build
+.PHONY : error/fast
+
+#=============================================================================
 # Target rules for targets named linked_list
 
 # Build rule for target.
@@ -186,6 +199,33 @@ linked_list: cmake_check_build_system
 linked_list/fast:
 	$(MAKE) -f CMakeFiles\linked_list.dir\build.make CMakeFiles/linked_list.dir/build
 .PHONY : linked_list/fast
+
+error.obj: error.c.obj
+
+.PHONY : error.obj
+
+# target to build an object file
+error.c.obj:
+	$(MAKE) -f CMakeFiles\error.dir\build.make CMakeFiles/error.dir/error.c.obj
+.PHONY : error.c.obj
+
+error.i: error.c.i
+
+.PHONY : error.i
+
+# target to preprocess a source file
+error.c.i:
+	$(MAKE) -f CMakeFiles\error.dir\build.make CMakeFiles/error.dir/error.c.i
+.PHONY : error.c.i
+
+error.s: error.c.s
+
+.PHONY : error.s
+
+# target to generate assembly for a file
+error.c.s:
+	$(MAKE) -f CMakeFiles\error.dir\build.make CMakeFiles/error.dir/error.c.s
+.PHONY : error.c.s
 
 fibonacci.obj: fibonacci.c.obj
 
@@ -355,14 +395,18 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... Demo_Code
 	@echo ... Series_01
+	@echo ... Demo_Code
 	@echo ... Series_02
 	@echo ... Series_03
 	@echo ... edit_cache
 	@echo ... Main
+	@echo ... error
 	@echo ... linked_list
 	@echo ... rebuild_cache
+	@echo ... error.obj
+	@echo ... error.i
+	@echo ... error.s
 	@echo ... fibonacci.obj
 	@echo ... fibonacci.i
 	@echo ... fibonacci.s

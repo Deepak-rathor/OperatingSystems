@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int *f(int a) {
-	int b = 2 * a; 
+	int b = 2 * a;
 	return &b;
 }
 

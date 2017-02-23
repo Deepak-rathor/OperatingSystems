@@ -3,6 +3,7 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" buildAllGenerated="true">
     <generated>
       <config projectName="Series_0" targetName="Main" />
+      <config projectName="Series_0" targetName="error" />
       <config projectName="Series_0" targetName="Series_0" />
       <config projectName="Series_0" targetName="linked_list" />
       <config projectName="Series_0" targetName="Series_01" />
@@ -26,6 +27,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Series_0.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Series_0.cbp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/error.c" afterPath="$PROJECT_DIR$/error.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/linked_list.c" afterPath="$PROJECT_DIR$/linked_list.c" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -45,8 +47,8 @@
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -55,8 +57,18 @@
       <file leaf-file-name="linked_list.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/linked_list.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="87" column="19" lean-forward="true" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
+            <state relative-caret-position="256">
+              <caret line="80" column="21" lean-forward="true" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/error.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -82,6 +94,7 @@
         <option value="$PROJECT_DIR$/../../../Studium/Betriebssysteme/skeletons/skeletons/substr.c" />
         <option value="$PROJECT_DIR$/fib.c" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/error.c" />
         <option value="$PROJECT_DIR$/linked_list.c" />
       </list>
     </option>
@@ -336,7 +349,11 @@
       <envs />
       <method />
     </configuration>
-    <list size="8">
+    <configuration default="false" name="error" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Series_0" TARGET_NAME="error" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Series_0" RUN_TARGET_NAME="error">
+      <envs />
+      <method />
+    </configuration>
+    <list size="9">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
       <item index="1" class="java.lang.String" itemvalue="Application.Series_01" />
       <item index="2" class="java.lang.String" itemvalue="Application.Series_02" />
@@ -345,6 +362,7 @@
       <item index="5" class="java.lang.String" itemvalue="Application.Demo_Code" />
       <item index="6" class="java.lang.String" itemvalue="Application.Main" />
       <item index="7" class="java.lang.String" itemvalue="Application.linked_list" />
+      <item index="8" class="java.lang.String" itemvalue="Application.error" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -361,7 +379,7 @@
       <workItem from="1487801384253" duration="5178000" />
       <workItem from="1487806583858" duration="611000" />
       <workItem from="1487843353843" duration="4718000" />
-      <workItem from="1487868306653" duration="9992000" />
+      <workItem from="1487868306653" duration="13556000" />
     </task>
     <task id="LOCAL-00001" summary="added substring program and modified the MakeList so single files can be run in CLion">
       <created>1487844879757</created>
@@ -384,11 +402,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487872600417</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="solved linked list part (besides the clean method)&#10;">
+      <created>1487880423469</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1487880423469</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21936000" />
+    <option name="totallyTimeSpent" value="25500000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -424,11 +449,19 @@
     <MESSAGE value="added substring program and modified the MakeList so single files can be run in CLion" />
     <MESSAGE value="added the code we were meant to use and solved exercises 1-3, need some fine tuning" />
     <MESSAGE value="solved fibonacci task&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="solved fibonacci task&#10;" />
+    <MESSAGE value="solved linked list part (besides the clean method)&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="solved linked list part (besides the clean method)&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/linked_list.c</url>
+          <line>81</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -686,16 +719,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/error.c">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/linked_list.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="87" column="19" lean-forward="true" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
+        <state relative-caret-position="256">
+          <caret line="80" column="21" lean-forward="true" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
           <folding />
         </state>
       </provider>

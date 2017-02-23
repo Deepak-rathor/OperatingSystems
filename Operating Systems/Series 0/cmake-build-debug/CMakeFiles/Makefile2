@@ -59,43 +59,6 @@ CMAKE_SOURCE_DIR = "E:\Eigene Dokumente\C Projects\Operating Systems\Series 0"
 CMAKE_BINARY_DIR = "E:\Eigene Dokumente\C Projects\Operating Systems\Series 0\cmake-build-debug"
 
 #=============================================================================
-# Target rules for target CMakeFiles/Demo_Code.dir
-
-# All Build rule for target.
-CMakeFiles/Demo_Code.dir/all:
-	$(MAKE) -f CMakeFiles\Demo_Code.dir\build.make CMakeFiles/Demo_Code.dir/depend
-	$(MAKE) -f CMakeFiles\Demo_Code.dir\build.make CMakeFiles/Demo_Code.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Eigene Dokumente\C Projects\Operating Systems\Series 0\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target Demo_Code"
-.PHONY : CMakeFiles/Demo_Code.dir/all
-
-# Include target in all.
-all: CMakeFiles/Demo_Code.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Demo_Code.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Eigene Dokumente\C Projects\Operating Systems\Series 0\cmake-build-debug\CMakeFiles" 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Demo_Code.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Eigene Dokumente\C Projects\Operating Systems\Series 0\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/Demo_Code.dir/rule
-
-# Convenience name for target.
-Demo_Code: CMakeFiles/Demo_Code.dir/rule
-
-.PHONY : Demo_Code
-
-# clean rule for target.
-CMakeFiles/Demo_Code.dir/clean:
-	$(MAKE) -f CMakeFiles\Demo_Code.dir\build.make CMakeFiles/Demo_Code.dir/clean
-.PHONY : CMakeFiles/Demo_Code.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/Demo_Code.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/Series_01.dir
 
 # All Build rule for target.
@@ -129,6 +92,43 @@ CMakeFiles/Series_01.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/Series_01.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Demo_Code.dir
+
+# All Build rule for target.
+CMakeFiles/Demo_Code.dir/all:
+	$(MAKE) -f CMakeFiles\Demo_Code.dir\build.make CMakeFiles/Demo_Code.dir/depend
+	$(MAKE) -f CMakeFiles\Demo_Code.dir\build.make CMakeFiles/Demo_Code.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Eigene Dokumente\C Projects\Operating Systems\Series 0\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target Demo_Code"
+.PHONY : CMakeFiles/Demo_Code.dir/all
+
+# Include target in all.
+all: CMakeFiles/Demo_Code.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Demo_Code.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Eigene Dokumente\C Projects\Operating Systems\Series 0\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Demo_Code.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Eigene Dokumente\C Projects\Operating Systems\Series 0\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/Demo_Code.dir/rule
+
+# Convenience name for target.
+Demo_Code: CMakeFiles/Demo_Code.dir/rule
+
+.PHONY : Demo_Code
+
+# clean rule for target.
+CMakeFiles/Demo_Code.dir/clean:
+	$(MAKE) -f CMakeFiles\Demo_Code.dir\build.make CMakeFiles/Demo_Code.dir/clean
+.PHONY : CMakeFiles/Demo_Code.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Demo_Code.dir/clean
 
 .PHONY : clean
 
@@ -244,13 +244,50 @@ clean: CMakeFiles/Main.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/error.dir
+
+# All Build rule for target.
+CMakeFiles/error.dir/all:
+	$(MAKE) -f CMakeFiles\error.dir\build.make CMakeFiles/error.dir/depend
+	$(MAKE) -f CMakeFiles\error.dir\build.make CMakeFiles/error.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Eigene Dokumente\C Projects\Operating Systems\Series 0\cmake-build-debug\CMakeFiles" --progress-num=11,12 "Built target error"
+.PHONY : CMakeFiles/error.dir/all
+
+# Include target in all.
+all: CMakeFiles/error.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/error.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Eigene Dokumente\C Projects\Operating Systems\Series 0\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/error.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Eigene Dokumente\C Projects\Operating Systems\Series 0\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/error.dir/rule
+
+# Convenience name for target.
+error: CMakeFiles/error.dir/rule
+
+.PHONY : error
+
+# clean rule for target.
+CMakeFiles/error.dir/clean:
+	$(MAKE) -f CMakeFiles\error.dir\build.make CMakeFiles/error.dir/clean
+.PHONY : CMakeFiles/error.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/error.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/linked_list.dir
 
 # All Build rule for target.
 CMakeFiles/linked_list.dir/all:
 	$(MAKE) -f CMakeFiles\linked_list.dir\build.make CMakeFiles/linked_list.dir/depend
 	$(MAKE) -f CMakeFiles\linked_list.dir\build.make CMakeFiles/linked_list.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Eigene Dokumente\C Projects\Operating Systems\Series 0\cmake-build-debug\CMakeFiles" --progress-num=11,12 "Built target linked_list"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Eigene Dokumente\C Projects\Operating Systems\Series 0\cmake-build-debug\CMakeFiles" --progress-num=13,14 "Built target linked_list"
 .PHONY : CMakeFiles/linked_list.dir/all
 
 # Include target in all.
