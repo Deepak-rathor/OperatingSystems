@@ -1,9 +1,9 @@
-E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/CMakeFiles/Series_01.dir
-E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/CMakeFiles/Demo_Code.dir
-E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/CMakeFiles/Series_02.dir
-E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/CMakeFiles/Series_03.dir
-E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/CMakeFiles/Main.dir
-E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/CMakeFiles/error.dir
-E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/CMakeFiles/linked_list.dir
-E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/CMakeFiles/Series_01.dir
+C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/CMakeFiles/Demo_Code.dir
+C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/CMakeFiles/Series_02.dir
+C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/CMakeFiles/Series_03.dir
+C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/CMakeFiles/Main.dir
+C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/CMakeFiles/error.dir
+C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/CMakeFiles/linked_list.dir
+C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/CMakeFiles/rebuild_cache.dir

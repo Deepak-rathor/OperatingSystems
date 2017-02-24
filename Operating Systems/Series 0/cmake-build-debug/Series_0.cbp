@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug"/>
+				<Option working_dir="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Series_01">
-				<Option output="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Series_01.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug"/>
+				<Option output="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Series_01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -33,15 +33,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 Series_01"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 Series_01"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Series_01/fast">
-				<Option output="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Series_01.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug"/>
+				<Option output="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Series_01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -55,15 +55,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 Series_01/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 Series_01/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Demo_Code">
-				<Option output="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Demo_Code.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug"/>
+				<Option output="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Demo_Code.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -77,15 +77,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 Demo_Code"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 Demo_Code"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Demo_Code/fast">
-				<Option output="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Demo_Code.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug"/>
+				<Option output="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Demo_Code.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -99,15 +99,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 Demo_Code/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 Demo_Code/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Series_02">
-				<Option output="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Series_02.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug"/>
+				<Option output="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Series_02.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -121,15 +121,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 Series_02"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 Series_02"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Series_02/fast">
-				<Option output="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Series_02.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug"/>
+				<Option output="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Series_02.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -143,15 +143,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 Series_02/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 Series_02/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Series_03">
-				<Option output="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Series_03.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug"/>
+				<Option output="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Series_03.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -165,15 +165,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 Series_03"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 Series_03"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Series_03/fast">
-				<Option output="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Series_03.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug"/>
+				<Option output="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Series_03.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -187,25 +187,25 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 Series_03/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 Series_03/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug"/>
+				<Option working_dir="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Main">
-				<Option output="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Main.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug"/>
+				<Option output="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -219,15 +219,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 Main"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 Main"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Main/fast">
-				<Option output="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Main.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug"/>
+				<Option output="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -241,15 +241,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 Main/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 Main/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="error">
-				<Option output="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/error.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug"/>
+				<Option output="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/error.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -263,15 +263,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 error"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 error"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="error/fast">
-				<Option output="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/error.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug"/>
+				<Option output="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/error.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -285,15 +285,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 error/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 error/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="linked_list">
-				<Option output="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/linked_list.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug"/>
+				<Option output="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/linked_list.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -307,15 +307,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 linked_list"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 linked_list"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="linked_list/fast">
-				<Option output="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/linked_list.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug"/>
+				<Option output="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/linked_list.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -329,48 +329,48 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 linked_list/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 linked_list/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug"/>
+				<Option working_dir="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/error.c">
+		<Unit filename="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/error.c">
 			<Option target="error"/>
 		</Unit>
-		<Unit filename="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/fibonacci.c">
+		<Unit filename="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/fibonacci.c">
 			<Option target="Series_02"/>
 		</Unit>
-		<Unit filename="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/linked_list.c">
+		<Unit filename="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/linked_list.c">
 			<Option target="linked_list"/>
 		</Unit>
-		<Unit filename="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/main.c">
+		<Unit filename="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/main.c">
 			<Option target="Main"/>
 		</Unit>
-		<Unit filename="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/product.c">
+		<Unit filename="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/product.c">
 			<Option target="Series_01"/>
 		</Unit>
-		<Unit filename="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/someDemoCode.c">
+		<Unit filename="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/someDemoCode.c">
 			<Option target="Demo_Code"/>
 		</Unit>
-		<Unit filename="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/someDemoCode.h">
+		<Unit filename="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/someDemoCode.h">
 			<Option target="Demo_Code"/>
 		</Unit>
-		<Unit filename="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/substring.c">
+		<Unit filename="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/substring.c">
 			<Option target="Series_03"/>
 		</Unit>
-		<Unit filename="E:/Eigene Dokumente/C Projects/Operating Systems/Series 0/CMakeLists.txt">
+		<Unit filename="C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 0/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

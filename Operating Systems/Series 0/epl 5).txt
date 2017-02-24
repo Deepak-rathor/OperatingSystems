@@ -1,0 +1,15 @@
+int *f(int a) {
+	int b = 2 * a;
+	return &b;
+}
+
+Hier wird die Adresse der Variable b im Speicher zurückgegeben. Das Problem dabei ist, dass 
+die Variable b im Speicher nur während der Ausführung der Funktion existiert, beziehungsweise den 
+Speicher nur während dieser Zeit belegt. 
+
+Lösung: Speicher dynmaisch belegen: 
+int *f(int a) {
+	int *b = malloc(sizeof(int));
+    *b = 2*a;
+	return b;
+}
