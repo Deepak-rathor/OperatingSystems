@@ -75,7 +75,7 @@ static void clean_list(struct elem *head, size_t len)
 	struct elem *next;
 
 	int i=0;
-	while(i<len){
+	while(i<=len){
 		next=current->next;
 		free(current);
 		current=next;
