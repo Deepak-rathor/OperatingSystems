@@ -7,11 +7,9 @@
 void create_zombie() {
 	/* TODO: Implement child process and kill it */
 
-    pid_t pid = fork();
+    
 
-    if(pid==0){
-        exit(0);
-    }
+    exit(0);
 
 	return;
 }
@@ -20,8 +18,11 @@ int main(void)
 {
 	int wait = 15;
 	/* TODO: implement */
-    create_zombie();
-    sleep(wait);
+	pid_t pid = fork();
+	if(pid==0){
+	    create_zombie();
+	}
+	sleep(wait);
 
 	return 0;
 }
