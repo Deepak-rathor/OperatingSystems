@@ -1,4 +1,5 @@
 /* gcc -Wall -pthread statistics.c */
+/* 15-114-945 Simon Kafader */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -11,9 +12,9 @@ float avg;
 int len;
 
 void *average(void *val) {
-    /* TODO */
     int count;
     int* numbers = (int*) val;
+
     for(count=1;count<=len;count++){
         avg+=numbers[count];
     }
@@ -22,8 +23,6 @@ void *average(void *val) {
 }
 
 void *minimum(void *val) {
-    /* TODO */
-
     int count;
     int* numbers = (int*) val;
     min=numbers[1];
@@ -37,7 +36,6 @@ void *minimum(void *val) {
 }
 
 void *maximum(void *val) {
-    /* TODO */
     int count;
     int* numbers = (int*) val;
     max=numbers[1];
@@ -56,22 +54,21 @@ int main(int argc, char *argv[])
     pthread_t thread0;
     pthread_t thread1;
     pthread_t thread2;
-
-
+    int index;
+    int l_num1;
+    char* str_rest_1;
 
     if (argc < 3) {
         printf("You have to supply at least 2 integers as arguments!\n");
         return 0;
     }
 
-    int l_num1;
-    char* str_rest_1;
-
-    array = malloc(sizeof(int)*argc); //too long
+    array = malloc(sizeof(int)*argc);
     len=argc-1;
-    int index;
+
     for(index=1;index<argc;index++){
         l_num1 = strtol(argv[index], &str_rest_1, 10);
+        //Check if only integers have been supplied
         if(!*str_rest_1) {
             array[index] = atoi(argv[index]);
         } else{
@@ -79,10 +76,6 @@ int main(int argc, char *argv[])
             return 0;
         }
     }
-
-
-    /* TODO */
-
 
     pthread_create(&thread0,NULL,average,(void*) array);
     pthread_create(&thread1,NULL,minimum,(void*) array);
