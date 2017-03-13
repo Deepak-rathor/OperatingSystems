@@ -14,7 +14,7 @@ void *average(void *val) {
     /* TODO */
     int count;
     int* numbers = (int*) val;
-    for(count=1;count<len;count++){
+    for(count=1;count<=len;count++){
         avg+=numbers[count];
     }
     avg=(float)avg/(float)len;
@@ -28,7 +28,7 @@ void *minimum(void *val) {
     int* numbers = (int*) val;
     min=numbers[1];
 
-    for(count=2;count<len;count++){
+    for(count=2;count<=len;count++){
         if(numbers[count]<min){
             min=numbers[count];
         }
@@ -42,7 +42,7 @@ void *maximum(void *val) {
     int* numbers = (int*) val;
     max=numbers[1];
 
-    for(count=2;count<len;count++){
+    for(count=2;count<=len;count++){
         if(numbers[count]>max){
             max=numbers[count];
         }
@@ -64,11 +64,20 @@ int main(int argc, char *argv[])
         return 0;
     }
 
+    int l_num1;
+    char* str_rest_1;
+
     array = malloc(sizeof(int)*argc); //too long
     len=argc-1;
     int index;
-    for(index=0;index<argc-1;index++){
-        array[index]=atoi(argv[index]);
+    for(index=1;index<argc;index++){
+        l_num1 = strtol(argv[index], &str_rest_1, 10);
+        if(!*str_rest_1) {
+            array[index] = atoi(argv[index]);
+        } else{
+            printf("You have supplied something that is no number!");
+            return 0;
+        }
     }
 
 
