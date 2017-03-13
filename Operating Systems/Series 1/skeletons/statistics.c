@@ -14,10 +14,10 @@ void *average(void *val) {
     /* TODO */
     int count;
     int* numbers = (int*) val;
-    for(count=1;count<numbers[0];count++){
+    for(count=1;count<=len;count++){
         avg+=numbers[count];
     }
-    avg/numbers[0];
+    avg=(float)avg/(float)len;
     return NULL;
 }
 
@@ -28,14 +28,12 @@ void *minimum(void *val) {
     int* numbers = (int*) val;
     min=numbers[1];
 
-    for(count=2;count<numbers[0];count++){
-        if(numbers[count]>min){
+    for(count=2;count<=len;count++){
+        if(numbers[count]<min){
             min=numbers[count];
         }
     }
 
-
-    return NULL;
 }
 
 void *maximum(void *val) {
@@ -44,7 +42,7 @@ void *maximum(void *val) {
     int* numbers = (int*) val;
     max=numbers[1];
 
-    for(count=2;count<numbers[0];count++){
+    for(count=2;count<=len;count++){
         if(numbers[count]>max){
             max=numbers[count];
         }
@@ -68,8 +66,9 @@ int main(int argc, char *argv[])
 
     array = malloc(sizeof(int)*argc); //too long
     array[0]=argc-1;
+    len=argc-1;
     int index;
-    for(index=1;index<argc-1;index++){
+    for(index=1;index<=argc-1;index++){
         array[index]=atoi(argv[index]);
     }
 
@@ -77,9 +76,9 @@ int main(int argc, char *argv[])
     /* TODO */
 
 
-    pthread_create(&thread0,NULL,average(array),(void*) array);
-    pthread_create(&thread1,NULL,minimum(array),(void*) array);
-    pthread_create(&thread2,NULL,maximum(array),(void*) array);
+    pthread_create(&thread0,NULL,average,(void*) array);
+    pthread_create(&thread1,NULL,minimum,(void*) array);
+    pthread_create(&thread2,NULL,maximum,(void*) array);
 
     pthread_join(thread0,NULL);
     pthread_join(thread1,NULL);
