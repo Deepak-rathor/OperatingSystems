@@ -7,8 +7,6 @@
 void create_zombie() {
 	/* TODO: Implement child process and kill it */
 
-    
-
     exit(0);
 
 	return;
