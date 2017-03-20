@@ -16,7 +16,12 @@ sem_t semaphore; //you may change this to sem_t *semaphore; if more convenient
 
 /* decrease available_resources by count resources
  * return 0 if sufficient resources available,
- * otherwise return -1 */
+ * otherwise return -1
+ *
+ * if the semaphore is at 1, sem_wait proceeds and sets semaphore to 0
+ * what "locks" the cpu. sem_post sets it back to 1 and by doing so "unlocks"
+ * the cpu again. This is because sem_wait would be waiting if semaphore was at 0.
+ * */
 int decrease_count(int count) {
     /* TODO: Adjust to omit race condition */
     if (available_resources < count) {
@@ -30,9 +35,14 @@ int decrease_count(int count) {
     }
 }
 
-/* increase available resources by count */
+/* increase available resources by count
+ *
+ * if the semaphore is at 1, sem_wait proceeds and sets semaphore to 0
+ * what "locks" the cpu. sem_post sets it back to 1 and by doing so "unlocks"
+ * the cpu again. This is because sem_wait would be waiting if semaphore was at 0.  *
+ *
+ * */
 int increase_count(int count) {
-    /* TODO: Adjust to omit race condition */
     if (count + available_resources > 5) {
         return -1;
     } else {
@@ -44,6 +54,11 @@ int increase_count(int count) {
     }
 }
 
+/* void *null is wanted by create_thread. A possibility would be to pass an int to distinguish the threads.
+ *
+ * Should (if nothing goes wrong, compare the functions, count counter one down and then one up.
+ *
+ * */
 void *runTimes(void *null) {
     int i = 0 , result;
     while (i < times) {
@@ -57,6 +72,15 @@ void *runTimes(void *null) {
     return NULL;
 }
 
+/* Runs runTimes times times simultaneously in two threads.
+ *
+ * That means that (without race condition) thread one calls decrease_count, then thread two does.
+ * Then thread one calls increase_count, then thread two does.
+ *
+ * So count should go two down, then two up, then two down, etc. Anything other is a sign of race condition
+ * or other errors.
+ *
+ */
 int main(int argc, char *argv[])
 {
     pthread_t thread1 , thread0;
@@ -64,10 +88,6 @@ int main(int argc, char *argv[])
     sem_init(&semaphore,0,1);
 
     decrease_count(2);
-
-    /* TODO: Create 2 threads that call runTimes and wait for their completion
-     * This should generate false final count of resources every now and then
-     * when run WITHOUT mutex or semaphore. */
 
     pthread_create(&thread0,NULL,runTimes,NULL);
     pthread_create(&thread1,NULL,runTimes,NULL);
