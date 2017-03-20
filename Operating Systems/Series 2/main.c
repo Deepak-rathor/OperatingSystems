@@ -9,7 +9,7 @@
 
 
 int available_resources = MAX_RESOURCES;
-int times = 100000;
+int times = 10;
 pthread_mutex_t mutex;
 sem_t semaphore; //you may change this to sem_t *semaphore; if more convenient
 
@@ -62,6 +62,11 @@ int main(int argc, char *argv[])
     /* TODO: Create 2 threads that call runTimes and wait for their completion
      * This should generate false final count of resources every now and then
      * when run WITHOUT mutex or semaphore. */
+    pthread_create(&thread0,NULL,runTimes,NULL);
+    pthread_create(&thread1,NULL,runTimes,NULL);
+
+    pthread_join(thread0,NULL);
+    pthread_join(thread1,NULL);
 
     printf("Currently available resources (should be 3): %i\n" , available_resources);
 
