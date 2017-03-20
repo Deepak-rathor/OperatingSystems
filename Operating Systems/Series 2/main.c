@@ -22,8 +22,10 @@ int decrease_count(int count) {
     if (available_resources < count) {
         return -1;
     } else {
+        sem_wait(&semaphore);
         available_resources -= count;
         printf("Locked %i resources, now available: %i\n" , count , available_resources);
+        sem_post(&semaphore);
         return 0;
     }
 }
@@ -34,8 +36,10 @@ int increase_count(int count) {
     if (count + available_resources > 5) {
         return -1;
     } else {
+        sem_wait(&semaphore);
         available_resources += count;
         printf("Freed %i resources, now available: %i\n" , count , available_resources);
+        sem_post(&semaphore);
         return 0;
     }
 }
@@ -62,6 +66,7 @@ int main(int argc, char *argv[])
     /* TODO: Create 2 threads that call runTimes and wait for their completion
      * This should generate false final count of resources every now and then
      * when run WITHOUT mutex or semaphore. */
+    sem_init(&semaphore,0,1);
     pthread_create(&thread0,NULL,runTimes,NULL);
     pthread_create(&thread1,NULL,runTimes,NULL);
 
