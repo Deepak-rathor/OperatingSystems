@@ -14,4 +14,4 @@ increase speichert available_resources=4+1=5
 available_resources=5 (erwartet wäre available_resources=4)
 
 Betrifft also die variable available_resources in den Zeilen 37 und 25 im skeleton. Sichtbar kann die
-Race Condition logischweise überall dort sein, wo aus available_resources ausgelesen wird. 
+Race Condition logischweise überall dort sein, wo aus available_resources ausgelesen wird.
