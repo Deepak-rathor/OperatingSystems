@@ -2,7 +2,7 @@ Die Race Condition kommt bei der Variable available_resources zustande.
 Nämlich wenn dann später decrease_count und increase_count zu einem Zeitpunkt sehr zeitnahe aufgerufen
 werden, kann es dazu kommen, dass eine Funktion die Variable aus dem Speicher liest und verändert, aber bevor
 sie sie speichert liest die andere Funktion sie ebenfalls aus dem Speicher.
-Dann würde die erste Funktion sie zwar verändert speichern, aber weil die andere Funktion "zu spät" eingelesen hat
+Dann würde die erste Funktion sie zwar verändert speichern, aber weil die andere Funktion "zu früh" eingelesen hat
 überspeichert sie die Änderung der ersten Funktion.
 
 zB:
@@ -13,4 +13,5 @@ decrease speichert available_resources=4-1=3
 increase speichert available_resources=4+1=5
 available_resources=5 (erwartet wäre available_resources=4)
 
-Betrifft also die variable available_resources in den Zeilen 37 und 25 im skeleton.
+Betrifft also die variable available_resources in den Zeilen 37 und 25 im skeleton. Sichtbar kann die
+Race Condition logischweise überall dort sein, wo aus available_resources ausgelesen wird. 

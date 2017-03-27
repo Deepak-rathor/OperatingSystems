@@ -27,10 +27,10 @@ int decrease_count(int count) {
     if (available_resources < count) {
         return -1;
     } else {
-        //      sem_wait(&semaphore);
+        sem_wait(&semaphore);
         available_resources -= count;
         printf("Locked %i resources, now available: %i\n" , count , available_resources);
-        //     sem_post(&semaphore);
+        sem_post(&semaphore);
         return 0;
     }
 }
@@ -46,10 +46,10 @@ int increase_count(int count) {
     if (count + available_resources > 5) {
         return -1;
     } else {
-        //     sem_wait(&semaphore);
+        sem_wait(&semaphore);
         available_resources += count;
         printf("Freed %i resources, now available: %i\n" , count , available_resources);
-        //   sem_post(&semaphore);
+        sem_post(&semaphore);
         return 0;
     }
 }
