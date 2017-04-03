@@ -11,7 +11,7 @@
  *      exit(0);
  *  }
  *
- * auszuführen um ein Zombie zu erschaffen. 
+ * auszuführen um ein Zombie zu erschaffen.
  *  */
 void create_zombie() {
     exit(0);
