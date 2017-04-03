@@ -10,11 +10,11 @@
  */
 
 int calculate_page (uint32_t address) {
-    return address/2^14;
+    return (int) address /(pow(2,12));
 }
 
 int calculate_offset (uint32_t address , int page) {
-    return address - (page* 2^14);
+    return address - (page* (pow(2,12)));
 }
 
 int main(int argc, char *argv[])
@@ -39,7 +39,10 @@ int main(int argc, char *argv[])
 
     /* TODO: calculate values and generate correct output */
 
-    
+    page = calculate_page(address);
+    offset = calculate_offset(address,page);
+
+    printf("The address %i contains: \n page number= %i \n offset = %i", address, page, offset);
 
     return 0;
 }

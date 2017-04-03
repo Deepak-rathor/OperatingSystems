@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/smoen/Documents/Studium/Informatik/Betriebssysteme/OperatingSystems/Operating Systems/Series 3/main.c
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+stdint.h
+-
+
