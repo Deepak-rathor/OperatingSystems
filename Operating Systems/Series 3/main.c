@@ -6,7 +6,7 @@
 #include <stdint.h>
 
 /*
- * System used: Win10 64bit x86
+ * System used: Win10 64bit x64
  *
  * uint32_t (32 bit long integer) is chosen because of the rounding down
  * property of the integer division and the size of 32 bit.
@@ -28,7 +28,7 @@ int calculate_page (uint32_t address, int page_size) {
  * Added page_size as parameter for a cleaner, more general solution
  *
  * The offset is like the distance to the base address or the page.
- * So we subtract the "address of the page" off the address to get it. 
+ * So we subtract the "address of the page" off the address to get it.
  */
 int calculate_offset (uint32_t address , int page, int page_size) {
     return address - (page* page_size);
