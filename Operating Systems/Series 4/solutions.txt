@@ -7,7 +7,8 @@ So ist es auch möglich, einer Datei mehrere Dateinamen zu geben.
 Mit dem Befehl ln file1.txt file2.txt wird ein zusätzlicher Hard Link auf den Inode von file1.txt mit dem Namen
 file2.txt erstellt. 
 Ein Soft Link wird auch symbolische Verknüpfung genannt. Soft Links sind lediglich Referenzen auf eine Datei/
-ein Verzeichnis. Wird 
+ein Verzeichnis. Anders als die Hard Links ist diese Referenz nicht gleichwertig zum eigentlichen Dateisystem-Eintrag
+der referenzierten Datei. 
 
 Nach dem Erstellen des zweiten Hard Links namens file2.txt haben beide Hard Links dieselbe Inodenummer, was ja
 auch so sein muss, da beide auf die gleiche Datei verlinken. Daher ist nach dem Bearbeiten der von file2.txt 
@@ -17,7 +18,6 @@ c) Wenn wir nun file1.txt löschen, dann löschen wir nur den Hard Link auf die vo
 Eine Datei wird erst dann gelöscht, wenn der gelöschte Hard Link der letzte Hard Link auf diese Datei ist. Unix-
 Systeme können aber nicht unterscheiden, welcher Hard Link älter ist, daher sind sie gleichwertig. Deshalb 
 existiert file2.txt und die damit verlinkte Datei auch weiter.
-https://unix.stackexchange.com/questions/151951/what-is-the-difference-between-rm-and-unlink
 
 rm calls unlinkat(), in diesem Fall unlinkat(AT_FDCWD, "file2.txt",0) mit Returnwert 0 (erfolgreich)
 
@@ -27,17 +27,7 @@ return Werte ausgegeben.
 d) Der Befehl ln -s file3.txt file4.txt erzeugt einen Soft Link auf file3.txt mit Dateinamen file4.txt.
 file3.txt hat die Inodenummer 1589369, file4.txt aber hat die Inodenummer 1589366.txt
 
-e)Ein typischer Arbeitsgang an einem Computer ist es, eine Datei zu öffnen, zu ändern und zu speichern – 
-beispielsweise einen Brief in einer Textverarbeitung zu ändern und dann zu sichern. Je nachdem, wie die 
-Anwendungssoftware – hier die Textverarbeitung – intern ausgelegt ist, wird entweder der alte Inhalt in der 
-geöffneten Datei mit dem geänderten Inhalt überschrieben – oder es wird eine neue Datei mit temporärem Namen 
-angelegt, die alte gelöscht und anschließend die neue Datei mit dem alten Namen versehen. Entsprechend der 
-dargelegten Eigenschaften von harten Links wird beim erstgenannten Verfahren der neue Inhalt bei allen Links 
-der Datei erscheinen; beim zweiten Verfahren hingegen wird durch den Löschvorgang lediglich einer der Links 
-aufgehoben, und der neue Inhalt erscheint in einer neuen Datei ohne zusätzliche harte Links. Die anderen Links
-der ursprünglichen Datei verweisen nach wie vor auf ebenjene ursprüngliche Datei mit dem alten Inhalt; es sind 
-nun also beide Versionsstände auf dem Datenträger vorhanden – ein Effekt, der gewollt sein kann oder auch nicht.
-
+e)
 Wir haben nun die Datei 3 bearbeitet, da file4.txt nur auf diese referenziert. Deshalb ist file3.txt auch gleich
 bearbeitet wie wir das bei file4.txt getan haben. Löschen wir nur file3.txt (der letzte Hard Link auf die
 effektiven Daten) referenziert file4.txt ins Nichts hinein. Deshalb versucht der Editor nano auch ein neues File
