@@ -1,0 +1,35 @@
+1)	2,3,9,10
+
+2) Die vom CPU generierte logische Adresse wird mit dem Limit Register verglichen. Ist der Adresswert tief genug wird er zu dem Relocation Register addiert und so die physikalische Adresse berechnet. Das wird so gemacht weil die logischen Adressen, die vom CPU generiert werden dem Main Memory nicht bekannt sind, Main Memory kennt nur die physikalische Adresse. 
+
+3) Zusätzliche Speicherreferenzen verlangsamen den Zugriff
+
+4) Weil beim Paging ganze Kacheln angefordert, aber dann eventuell nicht ganz gefüllt werden (innerer Verschnitt). Bei Segmentierung wird kein solcher "fixer" Platz angefordert, das zeigt sich gut in der rechten Grafik auf Seite 29 der Folien. 
+
+5) 2251799813685248 (2^64/8192)
+
+6) Weil dann nur Einträge für reale Seiten in der Table stehen. Nur ein Eintrag pro physikalischer Page in der Table
+
+Jeder Prozess muss einen Eintrag für diesen Speicher in seiner Page Table haben. Das System hat also mehrere gleiche Einträge für den gleichen physikalischen Speicher. 
+
+Oder falls das Problem bei invertierten Page Tables gemeint ist: Wir können dieselbe physikalische Page nicht mehr auf mehrere virtuelle page nummern in unterschiedlichen Prozessen mappen. 
+
+7) a) 18 MB in das 20 MB Loch => 2MB loch, 12 MB in das 18 MB Loch => 6 MB Loch, 15 MB in das 15 MB Loch
+
+b) 18 MB in das 18 MB Loch, 12 MB in das 12 MB Loch, 15 MB in das 15 MB Loch
+
+c) 18 MB in das 20 MB Loch => 2MB Loch, 12 MB in das 18 MB Loch => 6 MB Loch, 15 MB in das 15 MB Loch
+
+d)  kein Unterschied zu c
+
+8) ) Page = 20000/2048 (gerundet) = 9 ; Offset = 20000 - (9*2048) = 1568
+
+    Page = 60000/2048 (gerundet) = 29 ; Offset = 60000 - (29*2048) = 608
+
+b) Page = 20000/4096 (gerundet) = 4 ; Offset = 20000 - (4*4096) = 3616
+
+     Page = 60000/4096 (gerundet) = 14 ; Offset = 60000 - (14*4096) = 2656
+
+9) a) page und offset bestimmen (vgl lösungsweg vorherige Aufgabe) page=1, offset = 4. page 1 zeigt auf 4K-8K. Offset addieren => 4100
+
+b) page und offset bestimmen (vgl lösungsweg vorherige Aufgabe) page=2 offset = 108. page 2 zeigt auf 24K-28K. Offset addieren => 24684
